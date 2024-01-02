@@ -9,28 +9,18 @@
 * [5. Boilerplate](#5-boilerplate)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
-* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
-* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
+* [8. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
+
 
 ***
 
 ## 1. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 2 a 4 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+* Este proyecto se resolvió de manera individual.
+* El rango de tiempo en el que se desarrolló fue alrededor de 3 Sprints.
+* Se realizó un prototipo de baja fidelidad para la interfaz gráfica.
 
 ## 2. Preámbulo
-
-![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
-
-_Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
@@ -52,10 +42,10 @@ obtener una comprensión más profunda de los textos.
 
 ## 3. Resumen del proyecto
 
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
+En este proyecto se creó una aplicación web que sirve para que la usuaria
 pueda analizar un texto en el navegador mostrando una serie de indicadores y
 métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
-enviadas como _input_ por ella. Lo harás utilizando HTML, CSS y JavaScript.
+enviadas como _input_ por ella. Utilizando HTML, CSS y JavaScript.
 
 ## 4. Funcionalidades
 
@@ -90,12 +80,11 @@ clic en un botón.
 
 ## 5. Boilerplate
 
-La lógica del proyecto debe estar implementada completamente en JavaScript. En
+La lógica del proyecto está implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
 puro también conocido como Vanilla JavaScript.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
+Este repositorio contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
 es la estructura básica de un proyecto que sirve como un punto de partida con
 archivos y configuración inicial de dependencias y tests.
 
@@ -433,9 +422,7 @@ usuarias en el centro**
 
 * **Seguir los principios básicos de diseño visual**
 
-  - [ ] Se tuvieron en cuenta las reglas básica del
-  [diseño visual](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Reglas-basicas-de-diseno-visual_suVcO)
-  para diseñar la UI (interfáz gráfica)
+  - [ ] Se tuvieron en cuenta las reglas básica del diseño visual la UI (interfáz gráfica)
 
 ## 7. Pruebas
 
@@ -522,65 +509,9 @@ como se muestra en la siguiente imagen:
 
 ![Github Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "Github Action")
 
-## 8. Pistas, tips y lecturas complementarias
+## 8. Objetivos de aprendizaje
 
-### Prepara tu PC para trabajar
-
-Antes de comenzar instala lo siguiente:
-
-1. [Node.js](https://nodejs.org/)
-2. [git](https://git-scm.com/download/) Si estas en Linux es muy probable que
-  ya este instalado 👀.
-  Para conocer más de git visita
-  [este enlace](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-3. Un editor de código, te sugerimos [Code](https://code.visualstudio.com/)
-
-Después en [GitHub](https://github.com/):
-
-1. Crear una cuenta. Conoce más de GitHub en este
-  [link](https://curriculum.laboratoria.la/es/topics/scm/02-github/01-github)
-2. Realiza un fork de este proyecto
-3. Configura tu SSH Key  en GitHub. Puedes revisar este
-[video](https://www.youtube.com/watch?v=g0ZV-neSM7E) o
-[artículo](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-Luego en una [shell](https://curriculum.laboratoria.la/es/topics/shell)
-ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
-
-1. Clona el fork en tu PC
-2. Ubica la shell en el proyecto que clonaste
-3. Instala las dependencias del proyecto con `npm install`
-4. Instala `playwright` con `npx playwright install chromium --with-deps`
-5. Para arrancar el servidor web `npm start` y dirígete a
-   `http://localhost:3000` en tu navegador.
-6. A codear se ha dicho! :rocket:
-
-### Recursos y temas relacionados
-
-Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
-
-## 9. Consideraciones para pedir tu Project Feedback
-
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
-
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run test`
-* [ ] Está subido a GitHub.
-* [ ] Esta desplegado en GitHub Pages.
-* [ ] Tiene un README con la definición del producto.
-
-Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
-_life skills_ desde tu dashboard de estudiante.
-
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.
-
-## 10. Objetivos de aprendizaje
-
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+Objetivos que se comprendió y aplicó en el proyecto realizado:
 
 ### HTML
 
@@ -740,22 +671,3 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 - [ ] **Diseñar en distintos niveles de fidelidad**
 
 - [ ] **Seguir los principios básicos de diseño visual**
-
-## 11. Funcionalidades opcionales
-
-Si terminaste con todas las [funcionalidades requeridas](#3-funcionalidades),
-intenta implementar las siguientes funcionalidades opcionales para
-profundizar en los objetivos de aprendizaje del proyecto:
-
-* Que el recuento de palabras y caracteres sea 0 para una entrada de
-  texto vacía.
-* Que el recuento de palabras y caracteres sea 0 para una entrada de
-  texto con solo espacios.
-* Que el recuento de palabras y caracteres sea 0 para una entrada de
-  texto con solo caracteres de puntuación.
-
-Puedes habilitar las pruebas unitarias y en _end to end_ de estos casos
-en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
-[read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
-También tendrás que ajustar las pruebas ya existentes de las
-funcionalidades requeridas.

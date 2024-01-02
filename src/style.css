@@ -3,9 +3,10 @@ body{
 }
 header{
     text-align: center;
-    font-family: 'Gill Sans';
+    font-family: 'Helvetica';
     font-size: 24px;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
+    padding-top: 50px;
     color: #0f2b55;
     
 }
@@ -14,30 +15,31 @@ main{
 }
 
 textarea[name="user-input"]{
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Helvetica';
     position: absolute;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: solid 2px #0f2b55;
     width: 500px;
     height: 200px;
-    left: 400px;
-    top: 50px;
-    background-color: #f7f6f8; 
-    box-shadow: #f7f6f8 3px 3px 3px;
+    left: 530px;
+    top: 30px;
+    background-color: #f5f5f5; 
+    box-shadow:#0202024d 2px 2px 8px;
 }
 
 #reset-button{
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Helvetica';
     color: white;
     background: #0061ac;
     position: absolute;
-    top: 280px;
-    left: 400px;
-    font-weight: bold;
-
-  
+    top: 270px;
+    left: 530px;
+    font-weight: medium; 
 }
 
 #reset-button:hover{
@@ -49,16 +51,17 @@ textarea[name="user-input"]{
     color:#0f2b55;
     border: solid #0f2b55;
     border-width: 2px;
+    font-size: 16px;
+    font-family: 'Helvetica';
     width: 300px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
-    left: 1000px;
-    top: 50px;
-    margin-bottom: 5px;
+    left: 1050px;
+    top: 30px;
+    margin-bottom: 6px;
     background-color: #f7f6f8;
-
-
+    box-shadow: #3f3f3f 3px 3px ;
 }
 
 footer{
@@ -66,7 +69,8 @@ footer{
     text-align: center;
     color: #0f2b55;
     font-style: italic;
-
-
+    font-weight: bold;
+    font-family: 'Helvetica';
+    font-size: 16px;
 }
 
