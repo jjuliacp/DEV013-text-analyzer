@@ -3,7 +3,7 @@ const analyzer = {
     const textArray = text.trim().split(' '); // arreglo divide el texto usando el espacio como divisor
     let count = 0; //contador
     for (let i = 0; i < textArray.length; i++) {   // i = donde inicia la interacción para recorrer el array
-      if (textArray[i] !== "") {                 // si elemento en la posicion i es diferente a vacio aumenta 1
+      {                 // si elemento en la posicion i es diferente a vacio aumenta 1
         count++;
       }
     }
@@ -20,7 +20,7 @@ const analyzer = {
     const characterExcluding = text.trim().replace(/[^\w\s]/g, '').replace(/\s+/g, '').split(''); //
     let count = 0;
     for (let i = 0; i < characterExcluding.length; i++) {
-      if (characterExcluding[i]) {
+      {
         count++;
       }
     }
@@ -33,7 +33,7 @@ const analyzer = {
     for (let i = 0; i < averageWord.length; i++) {
       count += averageWord[i].length;
     }
-    return parseFloat(count / averageWord.length).toFixed(2); //analiza un argumento (cadena si es necesario) y devuelve un número  
+    return parseFloat((count / averageWord.length).toFixed(2)); //analiza un argumento (cadena si es necesario) y devuelve un número  
   },
 
   getNumberCount: (text) => {//TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.//encontrar los numeros y decimales // (/\b\d+\.?\d+\b/g)//  \b =numero de digitos que esten rodeados por caracteres diferentes (limite de palabra)// contar los numeros 
@@ -51,7 +51,7 @@ const analyzer = {
     let suma = 0;
     if (number) {
       for (let i = 0; i < number.length; i++) { //recorre los elementos del texto
-        if (number[i]) {
+        {
           suma += parseFloat(number[i]);// 
         }
       }
