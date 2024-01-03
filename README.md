@@ -19,7 +19,7 @@
 * Este proyecto se resolvió de manera individual.
 * El rango de tiempo en el que se desarrolló fue alrededor de 3 Sprints.
 * Se realizó un prototipo de baja fidelidad para la interfaz gráfica.
-
+<br><img src="src/img/Prototipos-dev.png" width="600" height="350" />
 ## 2. Preámbulo
 
 Un analizador de texto es una aplicación para extraer información útil de un
@@ -51,32 +51,31 @@ enviadas como _input_ por ella. Utilizando HTML, CSS y JavaScript.
 
 El listado de funcionalidades es el siguiente:
 
-1. La aplicación debe permitir a la usuaria ingresar un texto escribiéndolo
+1. La aplicación permite a la usuaria ingresar un texto escribiéndolo
 en un cuadro de texto.
 
-2. La aplicación debe calcular las siguientes métricas y actualizar el
+2. La aplicación calcula las siguientes métricas y actualiza el
 resultado en tiempo real a medida que la usuaria escribe su texto:
 
-    - **Recuento de palabras**: la aplicación debe poder contar el número de
-    palabras en el texto de entrada y mostrar este recuento a la usuaria
-    - **Recuento de caracteres**: la aplicación debe poder contar el número de
+    - **Recuento de palabras**: la aplicación cuenta el número de
+    palabras en el texto de entrada y muestra este recuento a la usuaria
+    - **Recuento de caracteres**: la aplicación cuenta el número de
     caracteres en el texto de entrada, incluidos espacios y signos de
-    puntuación, y mostrar este recuento a la usuaria.
+    puntuación, y muestra este recuento a la usuaria.
     - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
-    la aplicación debe poder contar el número de caracteres en el texto de
-    entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
+    la aplicación cuenta el número de caracteres en el texto de
+    entrada, excluyendo espacios y signos de puntuación, y muestra el recuento
     a la usuaria.
-    - **Recuento de números**: la aplicación debe contar cúantos números hay en
-    el texto de entrada y mostrar este recuento a la usuaria.
-    - **Suma total de números**: la aplicación debe sumar todos los números que
-    hay en el texto de entrada y mostrar el resultado a la usuaria.
-    - **Longitud media de las palabras**: la aplicación debe calcular la
-    longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
+    - **Recuento de números**: la aplicación cuenta cúantos números hay en
+    el texto de entrada y muestra el recuento a la usuaria.
+    - **Suma total de números**: la aplicación  suma todos los números que
+    hay en el texto de entrada y muestra el resultado a la usuaria.
+    - **Longitud media de las palabras**: la aplicación calcula la
+    longitud media de las palabras en el texto de entrada y muestra a la usuaria.
 
-3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
+3. La aplicación permite limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
-![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
 ## 5. Boilerplate
 
@@ -174,8 +173,8 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
 
 ## 6. Criterios de aceptación mínimos del proyecto
 
-A continuación encontrarás los criterios de aceptación mínimos del proyecto
-relacionados con cada objetivo de aprendizaje.
+A continuación se encontra los criterios de aceptación mínimos del proyecto
+relacionados con cada los objetivo de aprendizaje.
 
 ### HTML
 
@@ -426,8 +425,8 @@ usuarias en el centro**
 
 ## 7. Pruebas
 
-Este proyecto cuenta con 3 conjuntos de pruebas que te ayudarán a conocer si
-cumples los criterios mínimos de aceptación.
+Este proyecto cuenta con 3 conjuntos de pruebas que te ayudan a conocer si
+cumple los criterios mínimos de aceptación.
 
 ### Pruebas unitarias
 
