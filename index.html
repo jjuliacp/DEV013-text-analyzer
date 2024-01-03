@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="img/searching.png" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+  <main>
+    <section id="user">
+      <form>
+        <textarea name="user-input" cols="60" rows="10" placeholder="Escribe aquí..."></textarea>
+        <button type="button" id="reset-button">Limpiar Texto</button>
+      </form>
+    </section>
+    <section id="list">
+      <ul>
+        <li class="options" data-testid="word-count">Palabras:</li>
+        <li class="options" data-testid="character-count">Caracteres:</li>
+        <li class="options" data-testid="character-no-spaces-count">Caracteres Sin Espacios o Signos:</li>
+        <li class="options" data-testid="number-count">Números:</li>
+        <li class="options" data-testid="number-sum">Suma de números:</li>
+        <li class="options" data-testid="word-length-average">Promedio longitud:</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>By: Julia Cruz Pérez</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
