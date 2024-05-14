@@ -20,7 +20,7 @@ const analyzer = {
     const characterExcluding = text.trim().replace(/[^\w\s]/g, '').replace(/\s+/g, '').split(''); //
     let count = 0;
     for (let i = 0; i < characterExcluding.length; i++) {
-      if (characterExcluding[i]) {
+      {
         count++;
       }
     }
@@ -51,7 +51,7 @@ const analyzer = {
     let suma = 0;
     if (number) {
       for (let i = 0; i < number.length; i++) { //recorre los elementos del texto
-        if (number[i]) {
+        {
           suma += parseFloat(number[i]);// 
         }
       }

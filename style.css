@@ -18,50 +18,65 @@ textarea[name="user-input"]{
     font-size: 16px;
     font-family: 'Helvetica';
     position: absolute;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
-    border: solid 2px #0f2b55;
     width: 500px;
     height: 200px;
     left: 530px;
     top: 30px;
-    background-color: #f5f5f5; 
-    box-shadow:#0202024d 2px 2px 8px;
+    background-color: #ffffff; 
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
 }
+textarea[name="user-input"]:hover {
+    transform: translateY(1px) rotate(0deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+
 
 #reset-button{
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-    font-family: 'Helvetica';
-    color: white;
-    background: #0061ac;
+    background: #0f2b55;
     position: absolute;
-    top: 270px;
+    top: 300px;
     left: 530px;
     font-weight: medium; 
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+
 }
 
-#reset-button:hover{
-    background-color: #04365c;
+
+#reset-button:active {
+  background-color: #0f2b55;
 }
+
+
+#reset-button:hover{
+    background-color: #2c5ca5;
+}
+
 
 .options{
     list-style: none;
     color:#0f2b55;
-    border: solid #0f2b55;
-    border-width: 2px;
-    font-size: 16px;
     font-family: 'Helvetica';
     width: 300px;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 8px;
     position: relative;
     left: 1050px;
     top: 30px;
-    margin-bottom: 6px;
     background-color: #f7f6f8;
-    box-shadow: #3f3f3f 3px 3px ;
+    border: 1px solid;
+    margin-bottom: 5px;
 }
 
 footer{
@@ -73,4 +88,3 @@ footer{
     font-family: 'Helvetica';
     font-size: 16px;
 }
-
