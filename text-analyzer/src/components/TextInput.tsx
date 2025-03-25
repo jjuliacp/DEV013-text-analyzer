@@ -1,4 +1,6 @@
- 
+import Button from "./Button";
+
+
 interface TextInputProps {
   text: string;
   setText: (text: string) => void;
@@ -6,21 +8,16 @@ interface TextInputProps {
 
 const TextInput: React.FC<TextInputProps> = ({ text, setText }) => {
   return (
-    <section className="mb-4">
-      <textarea
-        className="w-full p-2 border rounded"
+    <section className="col-span-2 col-start-1 " >
+      < textarea
+        className="w-full h-[90%] bg-transparent border-none text-gray-400 resize-none focus:outline-none placeholder-gray-400 "
+        placeholder="Escribe o pega tu texto aquí..."
         rows={5}
         value={text}
         onChange={(e) => setText(e.target.value)}
-      ></textarea>
-      <button
-        type="button"
-        className="mt-2 bg-red-500 text-white px-4 py-2 rounded"
-        onClick={() => setText("")}
-      >
-        Limpiar Texto
-      </button>
-    </section>
+      ></textarea >
+      <Button onClick={() => setText("")} />
+    </section >
   );
 };
 
