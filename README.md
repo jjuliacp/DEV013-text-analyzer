@@ -1,54 +1,51 @@
-# React + TypeScript + Vite
+# 📖 Analizador de Texto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un analizador de texto que extrae información útil utilizando diversas técnicas de procesamiento de lenguaje natural (NLP), aprendizaje automático (ML) y análisis estadístico.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Demo en vivo
 
-## Expanding the ESLint configuration
+ [ Ver el proyecto en GitHub Pages](https://jjuliacp.github.io/Text-analyzer/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Características
+-   Contador de palabras, caracteres, oraciones y párrafos.
+-   Análisis básico de estructura del texto.
+-   Interfaz moderna con TailwindCSS.
+-   Desarrollado con React + TypeScript.
+-   Construido con Vite para un mejor rendimiento.
+## 📸 Versión anterior
+<img src="https://github.com/user-attachments/assets/d87c7cb9-91ae-4827-bb45-8424785d4db3" width="500" align="center" />
 
+## 🚀 Mejoras tras la optimización y refactorización
+
+<img src="https://github.com/user-attachments/assets/fda1956d-18a1-429f-867c-5c369b704956" width="500" />
+
+<img src="https://github.com/user-attachments/assets/bdecb691-d759-4f15-a331-299924dc2dbb" width="500" />
+
+## 🚀 Instalación y Uso
+1. Clona el repositorio
 ```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+git clone https://github.com/TU_USUARIO/DEV013-TEXT-ANALYZER.git
+cd TEXT-ANALYZER
+```
+2. Instala dependencias
+```js
+yarn install
+```
+3. Corre el servidor local
+```js
+yarn dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Tecnologías Utilizadas
+- Vite ⚡ - Para desarrollo rápido.
+- React ⚛️ - Framework para la UI.
+- TypeScript 🟦 - Tipado estático y seguridad.
+- TailwindCSS 🎨 - Estilos modernos y flexibles.
+- GitHub Pages 🚀 - Para el despliegue.
+  
+## Autora
+👤 Julia Cruz Pérez
+📩 juliacruz2996@gmail.com
+🐙 GitHub
+ 
