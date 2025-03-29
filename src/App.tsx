@@ -23,7 +23,7 @@ export default function App() {
         <button
           onClick={toggleDarkMode}
           className={`absolute top-4 right-4 p-2 transition-all duration-500 ease-in-out ${darkMode ? "bg-[#1f3a5f]" : "bg-[#E6EAF0]"
-            } dark:bg-gray-800 rounded-full transition-all`}
+            }  rounded-full transition-all`}
         >
           {darkMode ? (
             <Moon className="w-6 h-6  text-[#FFFEFB] transition-colors duration-500" />
